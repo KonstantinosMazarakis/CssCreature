@@ -1,0 +1,192 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(6, 94, 6);
+    
+}
+
+
+.ee { 
+
+    padding-left: 45%;
+    height: 100px;  
+}
+
+.ss {
+
+    padding-left: 45%;
+    height: 430px;
+}
+
+.aa {
+    padding-left: 45%;
+    height: 30px;
+}
+
+.ff {
+    padding-left: 45%;
+    height: 45px;
+}
+
+.rr{
+    padding-left: 45%;
+    height: 25px;
+}
+
+.oo {
+    padding-left: 45%;
+    height: 130px;
+}
+
+.pp {
+    padding-left: 45%
+    
+}
+
+.tt {
+    padding-left: 45%;
+}
+
+.inv {
+     width: 0; 
+    height: 0; 
+    border-left: 100px solid transparent;
+    border-right: 100px transparent;
+    border-bottom: 20px solid transparent;
+    position: relative;
+    display: inline-block;
+    -webkit-animation: MoveUpDown 3s linear infinite; 
+}
+
+.pointwhite {
+    width: 0; 
+    height: 0; 
+    border-left: 30px solid transparent;
+    border-right: 30px transparent;
+    border-bottom: 30px solid honeydew;
+    position: relative;
+    display: inline-block;
+    -webkit-animation: MoveUpDown 3s linear infinite; 
+}
+
+
+.point {
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid transparent;
+    border-right: 100px transparent;
+    border-bottom: 100px solid rgb(75, 75, 75);
+    position: relative;
+    display: inline-block;
+    -webkit-animation: MoveUpDown 3s linear infinite; 
+    
+
+}
+
+.pointedge {
+    width: 30px;
+    height: 100px;
+    background-color: honeydew;
+    display: inline-block;
+    position: relative;
+    -webkit-animation: MoveUpDown 3s linear infinite; 
+
+}
+
+.blade {
+    width: 100px;
+    height: 430px;
+    background-color: rgb(75, 75, 75);
+    display: inline-block;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.753) 0px 55px 55px;
+    -webkit-animation: MoveUpDown 3s linear infinite; 
+}
+
+
+.eadge {
+    width: 30px;
+    height: 430px;
+    background-color: honeydew;
+    display: inline-block;
+    position: relative;
+    -webkit-animation: MoveUpDown 3s linear infinite; 
+    
+}
+
+
+.guard {
+    width: 170px;
+    height: 45px;
+    background-color: rgb(34, 34, 34);
+    display: inline-block;
+    position: relative;
+    right: 19px;
+    -webkit-animation: MoveUpDown 3s linear infinite; 
+
+}
+
+
+.deco {
+    width: 35px;
+    height: 25px;
+    background-color: rgb(255, 217, 0);
+    display: inline-block;
+    position: relative;
+    left:42px;
+    border-radius: 25%;
+    -webkit-animation: MoveUpDown 3s linear infinite; 
+    
+}
+
+.handle {
+    width: 25px;
+    height: 130px;
+    background-color: rgb(114, 13, 0);
+    display: inline-block;
+    position: relative;
+    left:47px; 
+    border-radius: 25%;
+    box-shadow: rgba(0, 0, 0, 0.753) 0px 0px 25px;
+    -webkit-animation: MoveUpDown 3s linear infinite;
+}
+
+.hit {
+    width: 35px;
+    height: 20px;
+    background-color: rgb(34, 34, 34);
+    display: inline-block;
+    position: relative;
+     left:42px; 
+    border-radius: 25%;
+    -webkit-animation: MoveUpDown 3s linear infinite; 
+}
+
+
+.shadow {
+width: 230px;
+height: 27px;
+background-color: #484848;
+border-radius: 50%;
+position: relative;
+transform: rotate(0deg);
+left:-55px;
+bottom: -20px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+
+ @keyframes MoveUpDown {  
+    0%, 100% {
+      bottom: -10px;
+    }
+    50% {
+      bottom: 20px;
+    }
+  } 
+
+  
